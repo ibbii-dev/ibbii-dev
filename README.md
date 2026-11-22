@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-  <img src="./assets/itachi-blood-moon.jpg" width="100%" alt="Itachi under the blood moon" />
-</p>
-
-<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=64&duration=1800&pause=100000&color=FFFFFF&center=true&vCenter=true&width=700&height=80&letterSpacing=10&repeat=false&lines=IBRAHEEM+AYUB" alt="Ibraheem Ayub" />
   <br/>
   <img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=600&size=24&duration=2800&pause=1200&color=E0182A&center=true&vCenter=true&width=700&height=40&letterSpacing=3&lines=FULL+STACK+ENGINEER+%40+DEV+VALLEY;MERN+%C2%B7+AI+%C2%B7+SEO;BUILDING+IN+THE+SHADOWS" alt="Full Stack Engineer @ Dev Valley — MERN · AI · SEO" />
@@ -14,11 +10,11 @@
 
 <br/>
 
-<img src="./assets/itachi.gif" align="right" width="280" alt="Itachi" />
+<img src="./assets/itachi-blood-moon.jpg" align="right" width="360" alt="Itachi under the blood moon" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=26&duration=1&pause=100000&color=E0182A&vCenter=true&width=420&height=40&letterSpacing=4&repeat=false&lines=%E2%80%94+WHO+I+AM" alt="Who I am" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=17&duration=1&pause=1&color=DDDDDD&vCenter=true&multiline=true&repeat=false&width=480&height=96&lines=Full+Stack+Engineer+at+Dev+Valley.;I+build+fast%2C+scalable+apps+with+the+MERN+stack%2C;put+AI+inside+real+products%2C+and+make+them+rank." alt="Full Stack Engineer at Dev Valley. I build fast, scalable apps with the MERN stack, put AI inside real products, and make them rank." />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=17&duration=1&pause=1&color=DDDDDD&vCenter=true&multiline=true&repeat=false&width=440&height=96&lines=Full+Stack+Engineer+at+Dev+Valley.;I+build+fast%2C+scalable+apps+with+the+MERN+stack%2C;put+AI+inside+real+products%2C+and+make+them+rank." alt="Full Stack Engineer at Dev Valley. I build fast, scalable apps with the MERN stack, put AI inside real products, and make them rank." />
 
 <img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=26&duration=1&pause=100000&color=E0182A&vCenter=true&width=420&height=40&letterSpacing=4&repeat=false&lines=%E2%80%94+ARSENAL" alt="Arsenal" />
 
