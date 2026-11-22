@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/sharingan-banner.svg" width="100%" alt="Itachi Mangekyou Sharingan" />
+  <img src="./assets/itachi-banner.webp" width="100%" alt="Itachi Uchiha" />
 </p>
 
 <p align="center">
