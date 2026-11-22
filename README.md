@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/sharingan-eyes.gif" width="100%" alt="Itachi Mangekyou Sharingan" />
+  <img src="./assets/sharingan-banner.svg" width="100%" alt="Itachi Mangekyou Sharingan" />
+</p>
+
+<p align="center">
+  <img src="./assets/itachi-blood-moon.jpg" width="100%" alt="Itachi under the blood moon" />
 </p>
 
 <p align="center">
