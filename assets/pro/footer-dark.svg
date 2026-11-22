@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#2f81f7"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', Consolas, 'SF Mono', Menlo, monospace; }
+    .breathe { animation: breathe 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom; }
+    @keyframes breathe { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(1.06); } }
+    .z { opacity: 0; animation: z 3.6s ease-out infinite; }
+    @keyframes z { 0% { opacity: 0; transform: translate(0,0); } 25% { opacity: 1; } 100% { opacity: 0; transform: translate(14px,-34px); } }
+    .steam { opacity: 0; animation: steam 2.2s ease-out infinite; }
+    @keyframes steam { 0% { opacity: 0; transform: translateY(4px); } 40% { opacity: 1; } 100% { opacity: 0; transform: translateY(-12px); } }
+  </style>
+
+  <rect x="1" y="1" width="1198" height="188" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="186" width="1198" height="3" fill="url(#accent)" rx="1.5"/>
+
+  <!-- sleeping cat -->
+  <g transform="translate(150 132)">
+    <path d="M58,8 C84,24 30,40 -28,30" fill="none" stroke="#c9d1d9" stroke-width="12" stroke-linecap="round"/>
+    <g class="breathe"><ellipse cx="6" cy="0" rx="62" ry="30" fill="#c9d1d9"/></g>
+    <circle cx="-46" cy="2" r="24" fill="#c9d1d9"/>
+    <path d="M-64,-10 L-66,-36 L-48,-22 Z M-40,-22 L-30,-38 L-26,-14 Z" fill="#c9d1d9"/>
+    <g fill="none" stroke="#0d1117" stroke-width="2.4" stroke-linecap="round">
+      <path d="M-58,2 q5,4 10,0"/><path d="M-42,2 q5,4 10,0"/>
+    </g>
+    <g class="mono" fill="#58a6ff" font-weight="700">
+      <text class="z" x="-30" y="-36" font-size="14">z</text>
+      <text class="z" x="-20" y="-46" font-size="18" style="animation-delay:-1.2s">Z</text>
+      <text class="z" x="-8" y="-56" font-size="22" style="animation-delay:-2.4s">Z</text>
+    </g>
+  </g>
+
+  <!-- coffee -->
+  <g transform="translate(1030 104)">
+    <g fill="none" stroke="#8b949e" stroke-width="2.6" stroke-linecap="round">
+      <path class="steam" d="M-10,-30 c-5,-6 5,-10 0,-16"/>
+      <path class="steam" d="M2,-32 c-5,-6 5,-10 0,-16" style="animation-delay:-.7s"/>
+      <path class="steam" d="M14,-30 c-5,-6 5,-10 0,-16" style="animation-delay:-1.4s"/>
+    </g>
+    <path d="M-24,-20 H26 V4 a16,16 0 0 1 -16,16 H-8 a16,16 0 0 1 -16,-16 Z" fill="#c9d1d9"/>
+    <path d="M26,-14 h5 a9,9 0 0 1 0,18 h-5" fill="none" stroke="#c9d1d9" stroke-width="5"/>
+    <rect x="-34" y="24" width="70" height="6" rx="3" fill="#c9d1d9"/>
+  </g>
+
+  <text class="sans" x="600" y="86" text-anchor="middle" font-size="26" font-weight="700" fill="#f0f6fc">Thanks for stopping by.</text>
+  <text class="mono" x="600" y="120" text-anchor="middle" font-size="14" fill="#7d8590">fueled by coffee · supervised by cats · powered by code</text>
+</svg>

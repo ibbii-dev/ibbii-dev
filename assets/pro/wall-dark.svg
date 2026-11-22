@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#2f81f7"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="t7"><rect x="780" y="190" width="420" height="210" rx="16"/></clipPath>
+  </defs>
+  <style>
+    text { white-space: pre; }
+    .tile { fill: #0d1117; stroke: #30363d; }
+    .mono { font-family: 'JetBrains Mono', Consolas, 'SF Mono', Menlo, monospace; }
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .ink { fill: #e6edf3; }
+    .dim { fill: #7d8590; }
+    .ico { fill: none; stroke: #c9d1d9; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .spin { animation: spin 1.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+    .spinslow { animation: spin 3s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .grow { animation: grow 4s ease-in-out infinite; transform-box: fill-box; transform-origin: left; }
+    @keyframes grow { 0% { transform: scaleX(.05); } 70%,100% { transform: scaleX(1); } }
+    .hl { animation: hl 4.8s steps(1) infinite; }
+    @keyframes hl { 0%,24% { fill: #58a6ff; } 25%,100% { fill: #7d8590; } }
+    .peek { animation: peek 6s ease-in-out infinite; }
+    @keyframes peek { 0%,10% { transform: translateY(70px); } 25%,80% { transform: translateY(0); } 95%,100% { transform: translateY(70px); } }
+    .eyes { animation: eyes 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes eyes { 0%,88%,100% { transform: scaleY(1); } 92% { transform: scaleY(.1); } }
+    .look { animation: look 6s ease-in-out infinite; }
+    @keyframes look { 0%,35% { transform: translateX(0); } 45%,60% { transform: translateX(4px); } 70%,100% { transform: translateX(-3px); } }
+    .steam { opacity: 0; animation: steam 2.1s ease-out infinite; }
+    @keyframes steam { 0% { opacity: 0; transform: translateY(3px); } 40% { opacity: 1; } 100% { opacity: 0; transform: translateY(-8px); } }
+  </style>
+
+  <!-- T1: hello world -->
+  <rect class="tile" x="0.5" y="0.5" width="270" height="175" rx="16"/>
+  <text class="mono" x="135" y="96" text-anchor="middle" font-size="22" fill="#3fb950">Hello World.<tspan class="blink">▍</tspan></text>
+
+  <!-- T2: coffee(); code(); pet(cat); repeat(); -->
+  <rect class="tile" x="285.5" y="0.5" width="400" height="175" rx="16"/>
+  <g transform="translate(335 62)">
+    <path class="ico" d="M-14,-10 H10 V2 a8,8 0 0 1 -8,8 H-6 a8,8 0 0 1 -8,-8 Z M10,-6 h3 a5,5 0 0 1 0,10 h-3"/>
+  </g>
+  <g transform="translate(430 62)" class="ico"><path d="M-6,-10 L-16,0 L-6,10 M6,-10 L16,0 L6,10"/></g>
+  <g transform="translate(535 62)" fill="#c9d1d9">
+    <ellipse cx="0" cy="5" rx="9" ry="7"/><circle cx="-11" cy="-5" r="3.8"/><circle cx="-4" cy="-11" r="3.8"/><circle cx="4" cy="-11" r="3.8"/><circle cx="11" cy="-5" r="3.8"/>
+  </g>
+  <g transform="translate(632 62)"><g class="spinslow"><path class="ico" d="M-11,-4 a12,12 0 0 1 21,-4 M11,4 a12,12 0 0 1 -21,4 M10,-14 v6 h-6 M-10,14 v-6 h6"/></g></g>
+  <g class="mono" font-size="15" text-anchor="middle">
+    <text x="335" y="116"><tspan class="hl" style="animation-delay:0s">coffee</tspan><tspan class="dim">();</tspan></text>
+    <text x="430" y="116"><tspan class="hl" style="animation-delay:-3.6s">code</tspan><tspan class="dim">();</tspan></text>
+    <text x="535" y="116"><tspan class="hl" style="animation-delay:-2.4s">pet</tspan><tspan class="dim">(cat);</tspan></text>
+    <text x="632" y="116"><tspan class="hl" style="animation-delay:-1.2s">repeat</tspan><tspan class="dim">();</tspan></text>
+  </g>
+
+  <!-- T3: 1% better every day -->
+  <rect class="tile" x="700.5" y="0.5" width="250" height="175" rx="16"/>
+  <g class="sans" text-anchor="middle" font-weight="900" fill="#f0f6fc" letter-spacing="-.5">
+    <text x="825" y="78" font-size="30">1% BETTER</text>
+    <text x="825" y="112" font-size="30">EVERY DAY</text>
+  </g>
+  <rect x="745" y="132" width="160" height="4" rx="2" fill="#21262d"/>
+  <rect class="grow" x="745" y="132" width="160" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- T4: loading future -->
+  <rect class="tile" x="965.5" y="0.5" width="234" height="175" rx="16"/>
+  <g transform="translate(1082 70)"><g class="spin">
+    <circle r="14" fill="none" stroke="#21262d" stroke-width="4"/>
+    <path d="M0,-14 a14,14 0 0 1 14,14" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  </g></g>
+  <text class="sans dim" x="1082" y="122" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="3">LOADING FUTURE</text>
+
+  <!-- T5: success snippet -->
+  <rect class="tile" x="0.5" y="190.5" width="420" height="209" rx="16"/>
+  <g class="mono" font-size="13.5" xml:space="preserve">
+    <text x="28" y="230"><tspan fill="#ff7b72">def</tspan><tspan fill="#d2a8ff"> success</tspan><tspan class="ink">(coffee, cats, code):</tspan></text>
+    <text x="28" y="254"><tspan class="ink">    focus = coffee + cats  </tspan><tspan class="dim"># stay cozy</tspan></text>
+    <text x="28" y="278"><tspan fill="#ff7b72">    while not</tspan><tspan class="ink"> shipped:</tspan></text>
+    <text x="28" y="302"><tspan class="ink">        code += </tspan><tspan fill="#79c0ff">1</tspan><tspan class="dim">  # keep grinding</tspan></text>
+    <text x="28" y="326"><tspan fill="#ff7b72">    return</tspan><tspan fill="#a5d6ff"> "magic"</tspan></text>
+    <text x="28" y="370" class="dim"># love it. break it. learn. keep shipping.</text>
+  </g>
+
+  <!-- T6: while loop -->
+  <rect class="tile" x="435.5" y="190.5" width="330" height="209" rx="16"/>
+  <text class="mono ink" x="600" y="300" text-anchor="middle" font-size="16.5" font-weight="700">while ( ! ( succeed = try() ) );</text>
+  <g transform="translate(600 254)">
+    <g fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round">
+      <path class="steam" d="M-6,-12 c-4,-5 4,-8 0,-13"/>
+      <path class="steam" d="M3,-12 c-4,-5 4,-8 0,-13" style="animation-delay:-.7s"/>
+    </g>
+    <path d="M-12,-8 H10 V2 a7,7 0 0 1 -7,7 H-5 a7,7 0 0 1 -7,-7 Z M10,-5 h3 a4,4 0 0 1 0,8 h-3" fill="#c9d1d9"/>
+  </g>
+
+  <!-- T7: cat peeking, chief debugging officer -->
+  <rect class="tile" x="780.5" y="190.5" width="419" height="209" rx="16"/>
+  <text class="sans" x="990" y="242" text-anchor="middle" font-size="22" font-weight="800" fill="#f0f6fc">Chief Debugging Officer</text>
+  <text class="mono dim" x="990" y="268" text-anchor="middle" font-size="13">reviews every commit · sits on keyboard</text>
+  <g clip-path="url(#t7)">
+    <g class="peek">
+      <g transform="translate(990 398)">
+        <path d="M-34,-30 L-38,-66 L-12,-48 Z M34,-30 L38,-66 L12,-48 Z" fill="#05070a" stroke="#30363d" stroke-width="2"/>
+        <path d="M-46,10 Q-48,-40 0,-50 Q48,-40 46,10 Z" fill="#05070a" stroke="#30363d" stroke-width="2"/>
+        <g class="look">
+          <g class="eyes" fill="#3fb950" filter="url(#glow)">
+            <ellipse cx="-16" cy="-22" rx="5" ry="7"/>
+            <ellipse cx="16" cy="-22" rx="5" ry="7"/>
+          </g>
+        </g>
+        <path d="M-4,-8 L4,-8 L0,-3 Z" fill="#ff7b72"/>
+      </g>
+      <g transform="translate(990 398)" fill="#05070a" stroke="#30363d" stroke-width="2">
+        <ellipse cx="-30" cy="-2" rx="14" ry="9"/>
+        <ellipse cx="30" cy="-2" rx="14" ry="9"/>
+      </g>
+    </g>
+  </g>
+</svg>

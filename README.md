@@ -1,52 +1,83 @@
-<p align="center">
-  <img src="./assets/itachi-banner.webp" width="100%" alt="Itachi Uchiha" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pro/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pro/header-light.svg" />
+  <img src="./assets/pro/header-dark.svg" width="100%" alt="Ibraheem Ayub — Full Stack Engineer at Dev Valley" />
+</picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=64&duration=1800&pause=100000&color=FFFFFF&center=true&vCenter=true&width=700&height=80&letterSpacing=10&repeat=false&lines=IBRAHEEM+AYUB" alt="Ibraheem Ayub" />
-  <br/>
-  <img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=600&size=24&duration=2800&pause=1200&color=E0182A&center=true&vCenter=true&width=700&height=40&letterSpacing=3&lines=FULL+STACK+ENGINEER+%40+DEV+VALLEY;MERN+%C2%B7+AI+%C2%B7+SEO;BUILDING+IN+THE+SHADOWS" alt="Full Stack Engineer @ Dev Valley — MERN · AI · SEO" />
+  <a href="https://www.linkedin.com/in/ibraheemayub"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:ibraheemr992@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/ibbii-dev"><img src="https://img.shields.io/github/followers/ibbii-dev?label=Follow&style=for-the-badge&logo=github&color=24292f&labelColor=24292f" alt="Follow on GitHub" /></a>
 </p>
 
-<br/>
+## About
 
-<img src="./assets/itachi-blood-moon.jpg" align="right" width="360" alt="Itachi under the blood moon" />
+I'm a **Full Stack Engineer at Dev Valley**, building scalable web and mobile applications end to end — from MongoDB schemas and Node.js APIs to fast React interfaces and cross-platform Flutter apps. I care about shipping products that are reliable, quick to load, and easy to find, which is why AI integration and technical SEO are part of how I build.
 
-<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=26&duration=1&pause=100000&color=E0182A&vCenter=true&width=420&height=40&letterSpacing=4&repeat=false&lines=%E2%80%94+WHO+I+AM" alt="Who I am" />
+- **Currently:** building full-stack products at Dev Valley
+- **Focus:** scalable MERN applications · Flutter apps · AI-powered features · SEO & performance
+- **Powered by:** coffee, cats, and clean code
+- **Open to:** collaborations and interesting projects
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=17&duration=1&pause=1&color=DDDDDD&vCenter=true&multiline=true&repeat=false&width=440&height=96&lines=Full+Stack+Engineer+at+Dev+Valley.;I+build+fast%2C+scalable+apps+with+the+MERN+stack%2C;put+AI+inside+real+products%2C+and+make+them+rank." alt="Full Stack Engineer at Dev Valley. I build fast, scalable apps with the MERN stack, put AI inside real products, and make them rank." />
+## My formula
 
-<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=26&duration=1&pause=100000&color=E0182A&vCenter=true&width=420&height=40&letterSpacing=4&repeat=false&lines=%E2%80%94+ARSENAL" alt="Arsenal" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pro/formula-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pro/formula-light.svg" />
+  <img src="./assets/pro/formula-dark.svg" width="100%" alt="laptop + coffee + cat = code" />
+</picture>
 
-<img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,git&theme=dark" alt="JavaScript, React, Node.js, Express, MongoDB, Git" />
-<br/>
+## What I do
 
-<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=26&duration=1&pause=100000&color=E0182A&vCenter=true&width=420&height=40&letterSpacing=4&repeat=false&lines=%E2%80%94+FIND+ME" alt="Find me" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pro/services-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pro/services-light.svg" />
+  <img src="./assets/pro/services-dark.svg" width="100%" alt="Full-Stack Development · AI Integration · SEO & Performance" />
+</picture>
 
-<a href="https://www.linkedin.com/in/ibraheemayub"><img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=e0182a" alt="LinkedIn" /></a>
-<a href="mailto:ibraheemr992@gmail.com"><img src="https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail&logoColor=e0182a" alt="Email" /></a>
-<a href="https://github.com/ibbii-dev"><img src="https://img.shields.io/github/followers/ibbii-dev?label=FOLLOW&style=for-the-badge&logo=github&color=000000&labelColor=000000&logoColor=e0182a" alt="Follow on GitHub" /></a>
+## Tech stack
 
-<br clear="right"/>
-<br/>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,flutter,dart,firebase,androidstudio,html,css,git,github,vscode&perline=14" alt="JavaScript, React, Node.js, Express, MongoDB, Flutter, Dart, Firebase, Android Studio, HTML, CSS, Git, GitHub, VS Code" />
+</p>
+
+## Dev wall
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pro/wall-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pro/wall-light.svg" />
+  <img src="./assets/pro/wall-dark.svg" width="100%" alt="Hello World · coffee(); code(); pet(cat); repeat(); · 1% better every day · Chief Debugging Officer" />
+</picture>
+
+## GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ibbii-dev/ibbii-dev/output/heatmap-pro-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ibbii-dev/ibbii-dev/output/heatmap-pro-light.svg" />
+  <img src="https://raw.githubusercontent.com/ibbii-dev/ibbii-dev/output/heatmap-pro-dark.svg" width="100%" alt="Contribution calendar" />
+</picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=26&duration=1&pause=100000&color=E0182A&center=true&vCenter=true&width=600&height=40&letterSpacing=4&repeat=false&lines=%E2%80%94+DAILY+TRAINING+LOG+%E2%80%94" alt="Daily training log" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ibbii-dev&show_icons=true&hide_border=true&hide_rank=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ibbii-dev&show_icons=true&hide_border=true&hide_rank=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=1f2328" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=ibbii-dev&show_icons=true&hide_border=true&hide_rank=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ibbii-dev&hide_border=true&background=0d1117&ring=2f81f7&fire=8b5cf6&currStreakNum=f0f6fc&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=7d8590&stroke=30363d" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ibbii-dev&hide_border=true&background=ffffff&ring=0969da&fire=8b5cf6&currStreakNum=1f2328&sideNums=0969da&currStreakLabel=0969da&sideLabels=1f2328&dates=656d76&stroke=d0d7de" />
+    <img height="165" src="https://streak-stats.demolab.com?user=ibbii-dev&hide_border=true&background=0d1117&ring=2f81f7&fire=8b5cf6&currStreakNum=f0f6fc&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=7d8590&stroke=30363d" alt="GitHub streak" />
+  </picture>
 </p>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ibbii-dev&hide_border=true&bg_color=000000&color=dddddd&line=e0182a&point=ffffff&area=true&area_color=e0182a&title_color=e0182a&custom_title=Daily%20Contributions" alt="Daily contributions graph" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ibbii-dev&hide_border=true&bg_color=0d1117&color=c9d1d9&line=2f81f7&point=8b5cf6&area=true&area_color=2f81f7&title_color=58a6ff&custom_title=Daily%20Contributions" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ibbii-dev&hide_border=true&bg_color=ffffff&color=1f2328&line=0969da&point=8b5cf6&area=true&area_color=0969da&title_color=0969da&custom_title=Daily%20Contributions" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ibbii-dev&hide_border=true&bg_color=0d1117&color=c9d1d9&line=2f81f7&point=8b5cf6&area=true&area_color=2f81f7&title_color=58a6ff&custom_title=Daily%20Contributions" alt="Daily contributions graph" />
+</picture>
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/ibbii-dev/ibbii-dev/output/heatmap-itachi.svg" alt="Contribution calendar" />
-</p>
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ibbii-dev&show_icons=true&hide_border=true&hide_rank=true&bg_color=000000&title_color=e0182a&icon_color=e0182a&text_color=dddddd" alt="GitHub stats" />
-  <img height="160" src="https://streak-stats.demolab.com?user=ibbii-dev&hide_border=true&background=000000&ring=e0182a&fire=e0182a&currStreakNum=ffffff&sideNums=e0182a&currStreakLabel=e0182a&sideLabels=dddddd&dates=888888" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="./assets/mangekyou.gif" width="70" alt="Mangekyou" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pro/footer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pro/footer-light.svg" />
+  <img src="./assets/pro/footer-dark.svg" width="100%" alt="Thanks for stopping by — fueled by coffee, supervised by cats, powered by code" />
+</picture>

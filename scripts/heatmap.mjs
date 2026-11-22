@@ -6,17 +6,17 @@ import { join } from "node:path";
 const [user = "ibbii-dev", outDir = "dist"] = process.argv.slice(2);
 
 const THEMES = {
-  itachi: {
-    bg: "#000000", border: "#2a0a0e", empty: "#160a0c",
-    levels: ["#4a0a10", "#8a0d18", "#c1121f", "#ff2a3a"],
-    accent: "#e0182a", text: "#dddddd", muted: "#7a6a6a",
-    title: "MISSION CALENDAR",
+  "pro-dark": {
+    bg: "#0d1117", border: "#30363d", empty: "#161b22",
+    levels: ["#0d2d5e", "#1858a8", "#2f81f7", "#79c0ff"],
+    accent: "#58a6ff", text: "#c9d1d9", muted: "#7d8590",
+    title: "CONTRIBUTIONS", noGlow: true,
   },
-  tech: {
-    bg: "#000000", border: "#0b2a14", empty: "#08140b",
-    levels: ["#0b3d1a", "#0f6d2c", "#12a83c", "#00ff41"],
-    accent: "#00ff41", text: "#c9ffd5", muted: "#4d8a5a",
-    title: "$ git log --calendar",
+  "pro-light": {
+    bg: "#ffffff", border: "#d0d7de", empty: "#eff2f5",
+    levels: ["#c6dcff", "#80b3ff", "#2f81f7", "#0b4fb3"],
+    accent: "#0969da", text: "#1f2328", muted: "#656d76",
+    title: "CONTRIBUTIONS", noGlow: true,
   },
 };
 
@@ -67,7 +67,7 @@ function render(t) {
     const row = dt.getUTCDay();
     const x = LEFT + col * STEP, y = TOP + row * STEP;
     const fill = d.level ? t.levels[d.level - 1] : t.empty;
-    const glow = d.level === 4 ? ' filter="url(#glow)"' : "";
+    const glow = d.level === 4 && !t.noGlow ? ' filter="url(#glow)"' : "";
     const delay = (col * 0.018).toFixed(3);
     cells.push(`<rect class="c" style="animation-delay:${delay}s" x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="4" fill="${fill}"${glow}><title>${d.count} on ${d.date}</title></rect>`);
     if (row === 0 && dt.getUTCDate() <= 7 && dt.getUTCMonth() !== lastMonth) {
