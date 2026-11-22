@@ -59,11 +59,6 @@ I'm a **Full Stack Engineer at Dev Valley**, building scalable web and mobile ap
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ibbii-dev&show_icons=true&hide_border=true&hide_rank=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ibbii-dev&show_icons=true&hide_border=true&hide_rank=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=1f2328" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=ibbii-dev&show_icons=true&hide_border=true&hide_rank=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub stats" />
-  </picture>
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ibbii-dev&hide_border=true&background=0d1117&ring=2f81f7&fire=8b5cf6&currStreakNum=f0f6fc&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=7d8590&stroke=30363d" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ibbii-dev&hide_border=true&background=ffffff&ring=0969da&fire=8b5cf6&currStreakNum=1f2328&sideNums=0969da&currStreakLabel=0969da&sideLabels=1f2328&dates=656d76&stroke=d0d7de" />
     <img height="165" src="https://streak-stats.demolab.com?user=ibbii-dev&hide_border=true&background=0d1117&ring=2f81f7&fire=8b5cf6&currStreakNum=f0f6fc&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=7d8590&stroke=30363d" alt="GitHub streak" />
