@@ -77,8 +77,8 @@
   <!-- T5: success snippet -->
   <rect class="tile" x="0.5" y="190.5" width="420" height="209" rx="16"/>
   <g class="mono" font-size="13.5" xml:space="preserve">
-    <text x="28" y="230"><tspan fill="#ff7b72">def</tspan><tspan fill="#d2a8ff"> success</tspan><tspan class="ink">(coffee, cats, code):</tspan></text>
-    <text x="28" y="254"><tspan class="ink">    focus = coffee + cats  </tspan><tspan class="dim"># stay cozy</tspan></text>
+    <text x="28" y="230"><tspan fill="#ff7b72">def</tspan><tspan fill="#d2a8ff"> success</tspan><tspan class="ink">(coffee, cats, music, code):</tspan></text>
+    <text x="28" y="254"><tspan class="ink">    focus = coffee + cats + music  </tspan><tspan class="dim"># vibe</tspan></text>
     <text x="28" y="278"><tspan fill="#ff7b72">    while not</tspan><tspan class="ink"> shipped:</tspan></text>
     <text x="28" y="302"><tspan class="ink">        code += </tspan><tspan fill="#79c0ff">1</tspan><tspan class="dim">  # keep grinding</tspan></text>
     <text x="28" y="326"><tspan fill="#ff7b72">    return</tspan><tspan fill="#a5d6ff"> "magic"</tspan></text>

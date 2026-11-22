@@ -16,7 +16,7 @@ I'm a **Full Stack Engineer at Dev Valley**, building scalable web and mobile ap
 
 - **Currently:** building full-stack products at Dev Valley
 - **Focus:** scalable MERN applications · Flutter apps · AI-powered features · SEO & performance
-- **Powered by:** coffee, cats, and clean code
+- **Powered by:** coffee, cats, music, and clean code
 - **Open to:** collaborations and interesting projects
 
 ## My formula
@@ -24,7 +24,7 @@ I'm a **Full Stack Engineer at Dev Valley**, building scalable web and mobile ap
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pro/formula-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/pro/formula-light.svg" />
-  <img src="./assets/pro/formula-dark.svg" width="100%" alt="laptop + coffee + cat = code" />
+  <img src="./assets/pro/formula-dark.svg" width="100%" alt="laptop + coffee + music = code" />
 </picture>
 
 ## What I do
@@ -79,5 +79,5 @@ I'm a **Full Stack Engineer at Dev Valley**, building scalable web and mobile ap
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pro/footer-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/pro/footer-light.svg" />
-  <img src="./assets/pro/footer-dark.svg" width="100%" alt="Thanks for stopping by — fueled by coffee, supervised by cats, powered by code" />
+  <img src="./assets/pro/footer-dark.svg" width="100%" alt="Thanks for stopping by — fueled by coffee, tuned by music, supervised by cats, powered by code" />
 </picture>
