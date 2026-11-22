@@ -5,9 +5,9 @@
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ibraheemayub"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:ibraheemr992@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/ibbii-dev"><img src="https://img.shields.io/github/followers/ibbii-dev?label=Follow&style=for-the-badge&logo=github&color=24292f&labelColor=24292f" alt="Follow on GitHub" /></a>
+  <a href="https://www.linkedin.com/in/ibraheemayub"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pro/btn-linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/pro/btn-linkedin-light.svg" /><img src="./assets/pro/btn-linkedin-dark.svg" height="48" alt="LinkedIn" /></picture></a>
+  <a href="mailto:ibraheemr992@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pro/btn-email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/pro/btn-email-light.svg" /><img src="./assets/pro/btn-email-dark.svg" height="48" alt="Email" /></picture></a>
+  <a href="https://github.com/ibbii-dev"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pro/btn-github-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/pro/btn-github-light.svg" /><img src="./assets/pro/btn-github-dark.svg" height="48" alt="GitHub" /></picture></a>
 </p>
 
 ## About
