@@ -23,6 +23,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=1&pause=100000&color=00FF41&vCenter=true&width=420&height=38&repeat=false&lines=%24+ping+ibraheem" alt="$ ping ibraheem" />
 
+<a href="https://www.linkedin.com/in/ibraheemayub"><img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=00ff41" alt="LinkedIn" /></a>
+<a href="mailto:ibraheemr992@gmail.com"><img src="https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail&logoColor=00ff41" alt="Email" /></a>
 <a href="https://github.com/ibbii-dev"><img src="https://img.shields.io/github/followers/ibbii-dev?label=FOLLOW&style=for-the-badge&logo=github&color=000000&labelColor=000000&logoColor=00ff41" alt="Follow on GitHub" /></a>
 <img src="https://komarev.com/ghpvc/?username=ibbii-dev&style=for-the-badge&color=00c932&label=VISITORS" alt="Profile views" />
 
